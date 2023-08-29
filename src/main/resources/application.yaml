@@ -1,0 +1,12 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+logging:
+  level:
+    sql: debug
+    web: debug
