@@ -1,0 +1,10 @@
+type Candidate {
+    id: ID!,
+    first_name: String!,
+    last_name: String!,
+    job_posting_key: String!,
+    job_id: String,
+    organization_id: String,
+    sub_organization_id: String,
+    job_group_id: String
+}

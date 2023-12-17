@@ -6,6 +6,9 @@ spring:
     hibernate:
       ddl-auto: create-drop
     defer-datasource-initialization: true
+  datasource:
+    hikari:
+      pool-name: h2-pool
 logging:
   level:
     sql: debug
